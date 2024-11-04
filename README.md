@@ -5,7 +5,7 @@ This repository contains solutions to two assignments related to heaps and their
 ## Table of Contents
 
 - [Task 1: Minimum Cost Cable Connection](#task-1-minimum-cost-cable-connection)
-- [Task 2: Merging k Sorted Lists](#task-2-mMerging-k-sorted-lists)
+- [Task 2: Merging k Sorted Lists](#task-2-merging-k-sorted-lists)
 - [How to Run](#how-to-run)
 - [Requirements](#requirements)
 
@@ -35,9 +35,8 @@ The task is to merge `k` sorted lists into a single sorted list in an efficient 
 - **Solution Approach**: By using a min-heap, we maintain efficient access to the smallest element from the lists, ensuring a sorted merge.
 - **Functions**:
   - `merge_k_lists(lists: list) -> list`: Takes a list of sorted lists and returns a single merged sorted list.
-    Example usage:
 
-### Example input
+### Example usage
 
 ```python
 lists = [[1, 4, 5], [1, 3, 4], [2, 6]]
