@@ -28,7 +28,7 @@ Minimum cost: 393
 Final cable length: 174
 ```
 
-## Assignment 2: Merging k Sorted Lists
+## Task 2: Merging k Sorted Lists
 
 The task is to merge `k` sorted lists into a single sorted list in an efficient manner. This is done using a min-heap to keep track of the smallest current element across all lists.
 
